@@ -132,11 +132,6 @@ YourAIchat/
 * [ ] Export chat as PDF/text
 * [ ] Voice input & output (TTS/STT)
 
----
-
-## 📄 License
-
-This project is licensed under the MIT License. See `LICENSE` for more details.
 
 ---
 
