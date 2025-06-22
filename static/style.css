@@ -168,3 +168,49 @@ h4 {
   font-style: italic;
   opacity: 0.7;
 }
+
+@media (max-width: 768px) {
+  .chat-app {
+    flex-direction: column;
+    height: 100vh;
+  }
+
+  .sidebar {
+    width: 100%;
+    height: auto;
+    border-right: none;
+    border-bottom: 1px solid var(--border-color);
+  }
+
+  .chat-section {
+    flex: 1;
+    width: 100%;
+  }
+
+  .chat-header {
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 10px;
+  }
+
+  .chat-box {
+    padding: 10px;
+    font-size: 14px;
+  }
+
+  .input-container {
+    flex-direction: column;
+    align-items: stretch;
+    gap: 10px;
+  }
+
+  .input-container input,
+  .input-container button {
+    width: 100%;
+    font-size: 16px;
+  }
+
+  .theme-toggle, .stop-btn {
+    font-size: 18px;
+  }
+}
